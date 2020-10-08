@@ -242,7 +242,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
         }
 
         .thsize-aux {
-          width: 20%;
+          width: 25%;
         }
 
         .thsize-link {
@@ -267,6 +267,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
         table tbody td {
           padding-top: 0;
           padding-bottom: 0;
+          border-color: #D11149;
         }
       `}</style>
 
