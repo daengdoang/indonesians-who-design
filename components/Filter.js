@@ -64,7 +64,7 @@ export default function Filter({
           width: 100%;
           max-width: 420px;
           background: #fff;
-          color: #000;
+          color: #d11149;
           padding: 2.5rem;
           min-height: 100vh;
         }
@@ -104,7 +104,7 @@ function FilterItem({ label, active, onClick }) {
         .check {
           width: 1.7rem;
           height: 1.7rem;
-          /*background: #fff;
+          /*background: #d11149;
           border-radius: 6px; */
         }
       `}</style>

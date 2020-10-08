@@ -33,7 +33,7 @@ export default function Nav(props) {
         }
 
         ul li a {
-          color: #fff;
+          color: #d11149;
           text-decoration: none;
           transition: color 150ms ease;
         }
