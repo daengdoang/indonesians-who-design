@@ -30,7 +30,7 @@ export default function Filter({
         top: 0,
         right: 0,
         width: "100%",
-        maxWidth: "420px",
+        maxWidth: "520px",
         overflowY: "scroll",
       }}
     >
@@ -62,7 +62,7 @@ export default function Filter({
       <style jsx>{`
         .sidebar {
           width: 100%;
-          max-width: 420px;
+          max-width: 520px;
           background: #d11149;
           color: #fff;
           padding: 2.5rem;

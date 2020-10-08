@@ -80,11 +80,13 @@ table tbody tr:hover {
 /* Rethink is the best aproch */
 table thead td {
   padding-bottom: 0.8em;
+  border-color: #D11149;
 }
 
 table tbody td {
   padding-bottom: 0.6em;
   padding-top: 0.6em;
+  border-color: #D11149;
 }
 
 table tbody tr:last-child td {
