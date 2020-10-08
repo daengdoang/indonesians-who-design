@@ -12,7 +12,7 @@ export default function MetaTags() {
 
       {/* <!-- Open Graph / Facebook --/> */}
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="http://indonesianswho.design" />
+      <meta property="og:url" content="indonesians-who-design.vercel.app" />
       <meta property="og:title" content="indonesians Who Design" />
       <meta
         property="og:description"
@@ -20,12 +20,12 @@ export default function MetaTags() {
       />
       <meta
         property="og:image"
-        content="http://indonesianswho.design/img/preview.png"
+        content="http://indonesians-who-design.vercel.app/img/preview.png"
       />
 
       {/* <!-- Twitter --/> */}
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="http://indonesianswho.design" />
+      <meta property="twitter:url" content="indonesians-who-design.vercel.app" />
       <meta property="twitter:title" content="Indonesians Who Design" />
       <meta
         property="twitter:description"
@@ -33,7 +33,7 @@ export default function MetaTags() {
       />
       <meta
         property="twitter:image"
-        content="http://indonesianswho.design/img/preview.png"
+        content="indonesians-who-design.vercel.app/img/preview.png"
       />
     </>
   );

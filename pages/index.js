@@ -12,7 +12,7 @@ export async function getStaticProps() {
   const origin =
     process.env.NODE_ENV !== "production"
       ? "http://localhost:3000"
-      : "https://indonesianwho.design/";
+      : "https://indonesians-who-design.vercel.app/";
 
   const res = await fetch(`${origin}/api/designers`);
   const designers = await res.json();
