@@ -1,6 +1,6 @@
 # Brazilians Who Design
 
-![](https://www.dropbox.com/s/x5udk39ad57ayp5/brazilianswhodesignthumb.png?raw=1)
+
 
 The website is built using Google Spreedsheet, [Next.js](https://nextjs.org/) and deployed at [Vercel](https://vercel.com/).
 
