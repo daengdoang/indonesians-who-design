@@ -63,8 +63,8 @@ export default function Filter({
         .sidebar {
           width: 100%;
           max-width: 420px;
-          background: #fff;
-          color: #d11149;
+          background: #d11149;
+          color: #fff;
           padding: 2.5rem;
           min-height: 100vh;
         }

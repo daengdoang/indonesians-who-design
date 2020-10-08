@@ -12,28 +12,28 @@ export default function MetaTags() {
 
       {/* <!-- Open Graph / Facebook --/> */}
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="indonesians-who-design.vercel.app" />
+      <meta property="og:url" content="indonesianswhodesign.dae.ng" />
       <meta property="og:title" content="indonesians Who Design" />
       <meta
         property="og:description"
-        content="A repository to celebrate the work of talented Brazilian designers and showcase it to the world."
+        content="A repository to celebrate the work of talented Indonesians designers and showcase it to the world."
       />
       <meta
         property="og:image"
-        content="http://indonesians-who-design.vercel.app/img/preview.png"
+        content="http://indonesianswhodesign.dae.ng/img/preview.png"
       />
 
       {/* <!-- Twitter --/> */}
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="indonesians-who-design.vercel.app" />
+      <meta property="twitter:url" content="indonesianswhodesign.dae.ng" />
       <meta property="twitter:title" content="Indonesians Who Design" />
       <meta
         property="twitter:description"
-        content="A repository to celebrate the work of talented Brazilian designers and showcase it to the world."
+        content="A repository to celebrate the work of talented Indonesians designers and showcase it to the world."
       />
       <meta
         property="twitter:image"
-        content="indonesians-who-design.vercel.app/img/preview.png"
+        content="indonesianswhodesign.dae.ng/img/preview.png"
       />
     </>
   );

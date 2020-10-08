@@ -28,7 +28,7 @@ export default function Home({ designers }) {
     <div className="container">
       <Head>
         <title>Indonesians Who Design | About</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
         <MetaTags />
       </Head>
 
@@ -114,11 +114,6 @@ export default function Home({ designers }) {
             <li>
               <a className="link" href="https://www.latinxswhodesign.com/">
                 Latinx Who Design
-              </a>
-            </li>
-            <li>
-              <a className="link" href="https://queerdesign.club/">
-                Queer Design Club
               </a>
             </li>
             <li>

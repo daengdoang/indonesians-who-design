@@ -124,7 +124,7 @@ export default function Home({ designers, filters }) {
     >
       <Head>
         <title>Indonesians Who Design</title>
-        <link id="favicon" rel="alternate icon" href="/favicon.ico" />
+        <link id="favicon" rel="alternate icon" href="/favicon.png" />
         <MetaTags />
       </Head>
 
