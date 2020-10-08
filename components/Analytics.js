@@ -3,7 +3,7 @@ export default function Analytics() {
     <>
       <script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-168079933-1"
+        src="#"
       />
       <script
         dangerouslySetInnerHTML={{

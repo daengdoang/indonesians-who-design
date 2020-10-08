@@ -27,7 +27,7 @@ export default function Home({ designers }) {
   return (
     <div className="container">
       <Head>
-        <title>Brazilians Who Design | About</title>
+        <title>Indonesians Who Design | About</title>
         <link rel="icon" href="/favicon.ico" />
         <MetaTags />
       </Head>
@@ -38,7 +38,7 @@ export default function Home({ designers }) {
 
       <Title
         className="title m0 p0"
-        text="Brazilians*who&nbsp;design&nbsp;is&nbsp;a"
+        text="Indonesians*who&nbsp;design&nbsp;is&nbsp;a"
         noAnimation
       />
 
@@ -51,7 +51,7 @@ export default function Home({ designers }) {
         <p className="f1 extend">
           <motion.span variants={item}>place to showcase</motion.span>{" "}
           <motion.span variants={item}>the work of talented</motion.span>{" "}
-          <motion.span variants={item}>Brazilian designers to</motion.span>{" "}
+          <motion.span variants={item}>Indonesian designers to</motion.span>{" "}
           <motion.span variants={item}>the world. The goal</motion.span>{" "}
           <motion.span variants={item}>is to inspire new</motion.span>{" "}
           <motion.span variants={item}>designers to diversify</motion.span>{" "}
@@ -151,11 +151,11 @@ export default function Home({ designers }) {
 
           <h3>How did you build this?</h3>
           <p>
-            Brazilians Who Design is{" "}
+            Indonesians Who Design is{" "}
             <a
               className="link"
               target="_blank"
-              href="https://github.com/zehfernandes/brazilianswhodesign"
+              href="https://github.com/daengdoang/indonesians-who-design"
             >
               open source
             </a>{" "}
@@ -174,6 +174,11 @@ export default function Home({ designers }) {
             Sites built using our open-source platform:
           </p>
           <ul>
+          <li>
+              <a className="link" href="https://brazilianswho.design/">
+                brazilianswho.design
+              </a>
+            </li>
             <li>
               <a className="link" href="https://uruguayanswho.design/">
                 uruguayanswho.design
@@ -192,28 +197,17 @@ export default function Home({ designers }) {
           </ul>
           <br />
           <p>
-            Thanks to Caio Braga, Rafael Frota, Karina Sirqueira, Al Lucca,
-            Bruno Oyama, Fabio Sasso, Daniel Furtado, Rodrigo Muniz, Lucas
-            Falcão, for the help of gathering the initial list of designers.
+            Thanks to Dribbbleindo for the help of gathering the initial list of designers.
           </p>
 
           <h3>Who’s behind this?</h3>
           <ul>
             <li>
-              <a className="link" href="https://twitter.com/zehf">
-                Zeh Fernandes
+              <a className="link" href="https://twitter.com/daengdoang">
+                Daeng Muhammad Feisal
               </a>
             </li>
-            <li>
-              <a className="link" href="http://twitter.com/fabriciot">
-                Fabricio Teixeira
-              </a>
-            </li>
-            <li>
-              <a className="link" href="http://uxdesign.cc/">
-                UX Collective
-              </a>
-            </li>
+            
           </ul>
         </div>
         <div className="col-right">
