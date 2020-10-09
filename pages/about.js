@@ -38,7 +38,7 @@ export default function Home({ designers }) {
 
       <Title
         className="title m0 p0"
-        text="Indonesians*who&nbsp;design&nbsp;is&nbsp;a"
+        text="Indonesians&nbsp;who&nbsp;design*is&nbsp;a&nbsp;platform"
         noAnimation
       />
 
@@ -49,17 +49,13 @@ export default function Home({ designers }) {
         exit="hidden"
       >
         <p className="f1 extend">
-          <motion.span variants={item}>place to showcase</motion.span>{" "}
-          <motion.span variants={item}>the work of talented</motion.span>{" "}
-          <motion.span variants={item}>Indonesian designers to</motion.span>{" "}
-          <motion.span variants={item}>the world. The goal</motion.span>{" "}
-          <motion.span variants={item}>is to inspire new</motion.span>{" "}
-          <motion.span variants={item}>designers to diversify</motion.span>{" "}
-          <motion.span variants={item}>
-            their references, experienced designers
-          </motion.span>{" "}
-          <motion.span variants={item}>
-            to diversity their network, and companies to diversify their teams.
+          <motion.span variants={item}>to showcase</motion.span>{" "}
+          <motion.span variants={item}>the work of brilliant</motion.span>{" "}
+          <motion.span variants={item}>Indonesian designers to the world.</motion.span>{" "}
+          <motion.span variants={item}>The goal of the project is</motion.span>{" "}
+          <motion.span variants={item}>to inspire new designers to expand their references,</motion.span>{" "}
+          <motion.span variants={item}>experienced designers to diversify their network,</motion.span>{" "}
+          <motion.span variants={item}>and companies to find hidden talent to join their teams.
           </motion.span>
         </p>
       </motion.div>
@@ -68,27 +64,19 @@ export default function Home({ designers }) {
         <div className="col-left">
           <h3>How can I nominate someone?</h3>
           <p>
-            If you know a Brazilian designer whose work or voice is valuable to
+            If you know a Indonesian designer whose experience, work or opinions is valuable to
             the design industry, please{" "}
             <Link href="/nominate">
               <a className="link">fill out this form</a>
             </Link>{" "}
-            with their information and a few words about why you're nominating
-            them. You can choose to link to their portfolio, to their Linkedin,
-            or to other social profiles — any link that you feel best represents
-            how that person is making a difference in the industry. We decided
-            not to collect or display the designer’s photo because we wanted the
-            repository to be less about what someone looks like and more about
-            how they’re making an impact in the industry.
-          </p>
-
-          <h3>Why are featuring artists as well?</h3>
-          <p>
-            We wanted to showcase not only contemporary Brazilian design, but
-            also leverage all the visibility that this project is getting to
-            celebrate the history of design in our country. Every time you
-            reload the website there’s a new featured Brazilian designer you can
-            learn more about.
+            with their information and a brief explanation about why you're nominating them. 
+            You can choose to link to their portfolio, website or blog, to their Linkedin,
+            or to other social profiles such as Twitter or Instagram — any link
+            that you feel best represents how that person is making an impact in 
+            the industry. As with other talent aggregators that have inspired 
+            this website, we won’t display the designer’s photo as we want the 
+            repository to be less about appearances and more about that person's story, 
+            their thoughts, skills and abilities.
           </p>
 
           <h3>How did you come up with this idea?</h3>
@@ -96,6 +84,27 @@ export default function Home({ designers }) {
             We didn’t. This project is inspired by our fantastic sibling sites:
           </p>
           <ul>
+            <li>
+              <a className="link" href="https://brazilianswho.design/">
+                brazilianswho.design
+              </a>
+            </li>
+            <li>
+              <a className="link" href="https://britswho.design/">
+                britswho.design
+              </a>
+            </li>
+            <li>
+              <a className="link" href="https://uruguayanswho.design/">
+                uruguayanswho.design
+              </a>
+            </li>
+            <li>
+              <a className="link" href="https://spaniardswho.design/">
+                spaniardswho.design
+              </a>
+            </li>
+
             <li>
               <a className="link" href="https://womenwho.design/">
                 Women Who Design
@@ -153,43 +162,16 @@ export default function Home({ designers }) {
               href="https://github.com/daengdoang/indonesians-who-design"
             >
               open source
-            </a>{" "}
-            for you create your own showcase. It is built inspired by the tech
-            stack that Jules Forrest kindly made available on Github after
-            building{" "}
+            </a>
+            for you create your own showcase. It is built using the amazing open source {" "}
             <a
               className="link"
               target="_blank"
-              href="https://github.com/julesforrest/womenwhodesign"
+              href="https://github.com/zehfernandes/brazilianswhodesign"
             >
-              Women Who Design.
-            </a>
-            <br />
-            <br />
-            Sites built using our open-source platform:
+              Brazilians Who Design
+            </a> template. 
           </p>
-          <ul>
-          <li>
-              <a className="link" href="https://brazilianswho.design/">
-                brazilianswho.design
-              </a>
-            </li>
-            <li>
-              <a className="link" href="https://uruguayanswho.design/">
-                uruguayanswho.design
-              </a>
-            </li>
-            <li>
-              <a className="link" href="https://spaniardswho.design/">
-                spaniardswho.design
-              </a>
-            </li>
-            <li>
-              <a className="link" href="https://britswho.design/">
-                britswho.design
-              </a>
-            </li>
-          </ul>
           <br />
           <p>
             Thanks to Dribbbleindo for the help of gathering the initial list of designers.
@@ -202,9 +184,9 @@ export default function Home({ designers }) {
                 Daeng Muhammad Feisal
               </a>
             </li>
-            
           </ul>
         </div>
+
         <div className="col-right">
           <h3>How can I remove my name?</h3>
           <p>
