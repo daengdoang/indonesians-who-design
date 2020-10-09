@@ -7,20 +7,20 @@ export default function MetaTags() {
       <meta name="title" content="Indonesians Who Design" />
       <meta
         name="description"
-        content="A repository to celebrate the work of talented Brazilian designers and showcase it to the world."
+        content="A repository to celebrate the work of talented Indonesian designers and showcase it to the world."
       />
 
       {/* <!-- Open Graph / Facebook --/> */}
       <meta property="og:type" content="website" />
       <meta property="og:url" content="indonesianswhodesign.dae.ng" />
-      <meta property="og:title" content="indonesians Who Design" />
+      <meta property="og:title" content="Indonesians Who Design" />
       <meta
         property="og:description"
         content="A repository to celebrate the work of talented Indonesians designers and showcase it to the world."
       />
       <meta
         property="og:image"
-        content="http://indonesianswhodesign.dae.ng/img/preview.png"
+        content="https://indonesianswhodesign.dae.ng/img/preview.png"
       />
 
       {/* <!-- Twitter --/> */}
@@ -33,7 +33,7 @@ export default function MetaTags() {
       />
       <meta
         property="twitter:image"
-        content="indonesianswhodesign.dae.ng/img/preview.png"
+        content="https://indonesianswhodesign.dae.ng/img/preview.png"
       />
     </>
   );
