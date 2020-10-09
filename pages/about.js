@@ -174,7 +174,7 @@ export default function Home({ designers }) {
           </p>
           <br />
           <p>
-            Thanks to Dribbbleindo for the help of gathering the initial list of designers.
+            Thanks to UXID Web for the help of gathering the initial list of designers.
           </p>
 
           <h3>Who’s behind this?</h3>
