@@ -35,6 +35,7 @@ export default function MetaTags() {
         property="twitter:image"
         content="https://indonesianswhodesign.dae.ng/img/preview.png"
       />
+      <meta name="theme-color" content="#D11149" />
     </>
   );
 }
