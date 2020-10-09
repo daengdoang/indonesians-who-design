@@ -16,6 +16,11 @@ body {
   padding: 0;
 }
 
+::selection {
+  color: #fff;
+  background: #d11149;
+}
+
 .container {
   width: 95vw;
   margin: 3rem auto;
