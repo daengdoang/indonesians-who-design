@@ -196,10 +196,7 @@ export default function Home({ designers }) {
           </p>
           <h3>Why is my nomination taking so long to show?</h3>
           <p>
-            We update this website once a week to include new names. To ensure a
-            healthy gender balance on this website, some nominations might take
-            longer to appear. In the meantime, try nominating a designer who
-            identifies as a woman or non-binary.
+            We update this website twice a month to include new names. 
           </p>
         </div>
 
