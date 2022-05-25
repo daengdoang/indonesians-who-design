@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { useState, useEffect, useRef } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";    
 import Nav from "../components/Nav.js";
 import Filter from "../components/Filter.js";
 import Title from "../components/Title.js";
@@ -12,7 +12,7 @@ export async function getStaticProps() {
   const origin =
     process.env.NODE_ENV !== "production"
       ? "http://localhost:3000"
-      : "https://indonesianswho.design/";
+      : "https://brazilianswho.design/";
 
   console.log(origin)
 
@@ -183,7 +183,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
     <div className={className} onClick={onClick}>
       <Nav />
 
-      <Title className="title m0 p0" text="Indonesians*who&nbsp;design." />
+      <Title className="title m0 p0" text="Indonesians*who&nbsp;design" />
 
       <motion.div
         initial={{ opacity: 0 }}
@@ -235,30 +235,24 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
         .tableContent {
           padding-top: 18vh;
         }
-
         .filterTable {
           cursor: pointer;
         }
-
         thead {
           height: 2.2rem;
         }
-
         .thsize-aux {
-          width: 25%;
+          width: 20%;
         }
-
         .thsize-link {
           width: 2rem;
           text-align: right;
         }
-
         @media (max-width: 480px) {
           .thsize-aux {
             width: 30%;
           }
         }
-
         tbody a {
           width: 100%;
           padding-bottom: 0.6em;
@@ -266,7 +260,6 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
           color: inherit;
           display: inline-block;
         }
-
         table tbody td {
           padding-top: 0;
           padding-bottom: 0;
