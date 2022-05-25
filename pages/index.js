@@ -242,7 +242,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
           height: 2.2rem;
         }
         .thsize-aux {
-          width: 20%;
+          width: 30%;
         }
         .thsize-link {
           width: 2rem;
