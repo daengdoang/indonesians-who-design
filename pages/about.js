@@ -192,11 +192,11 @@ export default function Home({ designers }) {
           <p>
             If you’ve been added to the directory and would like to opt-out or
             make an edit to your profile, please send us a message at
-            hello[at]dae[dot]ng or DM via twitter <a href="https://twitter.com/daengdoang"> </a>@daengdoang</a>.
+            hello[at]dae[dot]ng or DM via twitter <a className="link" href="https://twitter.com/daengdoang">@daengdoang</a>.
           </p>
           <h3>Why is my nomination taking so long to show?</h3>
           <p>
-            We update this website twice a month to include new names. 
+            We update this website twice a week to include new names. 
           </p>
         </div>
 
