@@ -159,13 +159,13 @@ a.link:before {
   position: absolute;
   background-size: 1px 1em;
   background-size: 1px 1em;
-  box-shadow: inset 0 -0.02em var(--color), inset 0 -0.1em #d11149;
+  box-shadow: inset 0 -0.05em var(--color), inset 0 -0.1em #d11149;
   transition: box-shadow 150ms ease;
   transform-origin: 0% 0%;
 }
 
 a.link:hover {
-  --color: #757575;
+  --color: #111111;
 }
 
 a.link:after {
@@ -196,6 +196,7 @@ a.link:after {
 
 .check.active svg {
   opacity: 1;
+  
 }
 
 .filterIsOpen {
